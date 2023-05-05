@@ -40,7 +40,7 @@ public class FirstTest {
         driver.get("http://localhost:9999/");
 
         driver.findElement(By.cssSelector("[data-test-id=name] input")).sendKeys("Иванов Иван");
-        driver.findElement(By.cssSelector("[data-test-id=phone] input")).sendKeys("+79137775544");
+        driver.findElement(By.cssSelector("[data-test-id=phone] input")).sendKeys("+79137775549");
         driver.findElement(By.cssSelector("[data-test-id=agreement]")).click();
         driver.findElement(By.cssSelector("[type=button]")).click();
         String exp = "Ваша заявка успешно отправлена! Наш менеджер свяжется с вами в ближайшее время.";
